@@ -77,6 +77,7 @@ export const userDetail = createSlice({
             users: [],
             loading: false,
             error: null,
+            
       },
       extraReducers : {
             [createUser.pending] : (state)=>{
